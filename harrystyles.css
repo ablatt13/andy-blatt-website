@@ -1,0 +1,88 @@
+@media only screen and (max-width: 300px) {
+    #main-doc{
+      position: absolute;
+      margin: 0;
+    }
+  }
+  
+  * {
+    box-sizing: border-box; 
+  }
+  
+  /* THIS IS FOR THE NAVBAR */
+  
+  .bar-container {
+    height: 100%;
+    width: 170px; 
+    border-right: 3px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  nav header {
+    font-size: 2rem; 
+    border-bottom: 5px double black; 
+    text-align: center; 
+    position: fixed; 
+    top: 0; 
+    padding: 0 7px; 
+    margin: auto; 
+  }
+  
+  
+  #navbar ul {
+    list-style: none; 
+    padding-top: 50px; 
+    padding-left: 0;
+    margin: 0; 
+    font-size: 1.2em; 
+    text-align: right; 
+  }
+  
+  #navbar ul li {
+    padding: 10px 5px 10px 0; 
+    border-bottom: 5px solid black; 
+  }
+  
+  li > a {
+    font-weight: bold; 
+    text-decoration: none;
+    color: black; 
+  }
+  
+  li > a:hover {
+    text-decoration: none;
+    color: purple; 
+  }
+  
+  /* THIS IS FOR THE ACTUAL INFO BODY */
+  
+  section {
+    height: 100%;
+    width: calc(100% - 170px);
+    position: relative;
+    top: 0; 
+    left: 170px; 
+  }
+  
+  .main-section header {
+    font-weight: bold; 
+    text-decoration: underline; 
+    font-size: 1.5em; 
+    background-color: lavender;  
+  }
+  
+  .show-type {
+    font-weight: bold; 
+    font-size: 1.1em; 
+    margin-bottom: 2px;
+    margin-top: 5px;  
+  }
+  
+  .where-when {
+    color: darkslategray; 
+    margin-top: 0px; 
+  }
+  
+  
