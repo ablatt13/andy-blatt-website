@@ -108,8 +108,9 @@ main {
 
 section {
   width: 80%;
-  margin: 0 auto 10px auto;
+  margin: 0;
   max-width: 600px;
+
 }
 
 
@@ -132,7 +133,7 @@ section {
 
 #bio {
   margin: 5px; 
-  width: calc(100% - 300px);
+  width: calc(100% - 30px);
   display: flex; 
   flex-wrap: wrap; 
   position: relative;
