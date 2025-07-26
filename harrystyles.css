@@ -14,7 +14,7 @@
   .bar-container {
     height: 100%;
     width: 170px; 
-    border-right: 3px solid black;
+    border-right: 3px solid green;
     position: fixed;
     top: 0;
     left: 0;
