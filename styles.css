@@ -36,6 +36,8 @@ header {
 
 footer {
   height: 100px; 
+  text-align: center; 
+  justify-content: center;
 }
 
 .logo {
@@ -85,11 +87,6 @@ a[class~="navigate"] {
   padding: 0.2rem;
 }
 
-footer {
-  text-align: center; 
-  justify-content: center;
-}
-
 a[class~="navigate"]:hover {
   border-bottom: 3px double black; 
   font-weight: bold;
@@ -103,7 +100,9 @@ a[class~="navigate"]:hover {
 
 
 
-
+section {
+  display: block; 
+}
 
 
 
