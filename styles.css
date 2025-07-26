@@ -68,11 +68,10 @@ a[class~="logo"]:hover {
 }
 */
 
-nav > ul, footer {
+nav > ul {
   display: flex;
   justify-content: space-evenly;
   list-style: none; 
-  
   flex-wrap: wrap;
   align-items: center;
   margin: 0 10px; 
@@ -84,6 +83,11 @@ a[class~="navigate"] {
   text-decoration: none; 
   margin: 0 0.2rem;
   padding: 0.2rem;
+}
+
+footer {
+  text-align: center; 
+  justify-content: center;
 }
 
 a[class~="navigate"]:hover {
@@ -132,11 +136,11 @@ a[class~="navigate"]:hover {
 }
 
 /* PRODUCTION STUFF */
-.all-productions {
+/*.all-productions {
   position: absolute; 
   display: flex; 
 }
-
+*/
 /* PROJECTS STUFF */
 
 /* RESUME STUFF */
