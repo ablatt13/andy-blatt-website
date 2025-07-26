@@ -15,7 +15,6 @@ body {
   background: whitesmoke;
   color: black;
   font-family: Rubik;
-  margin: 0;
 }
 
 header, footer {
@@ -37,21 +36,14 @@ header {
 .logo {
   text-decoration: none;
   color: black; 
-  padding-left: 5px;
-  padding-top: 10px;
+  margin: 0 0 0 15px; 
+  text-align: center; 
+  justify-content: center; 
 }
 
-.logohead {
-  font-size: 20px; 
-  padding-top: 5px; 
-  padding-bottom: 0; 
-  margin: 0; 
-}
-
-.logosub {
-  margin: 0; 
+.logo h1, h2 {
   padding: 0; 
-  font-size: 1em; 
+  margin: 0; 
 }
 
 
@@ -60,11 +52,11 @@ a[class~="logo"]:hover {
 }
 
 
-h1 {
+/*h1 {
   font-size: min(5vw, 1.2em);
   text-align: center;
 }
-
+*/
 
 
 nav {
@@ -102,6 +94,8 @@ li > a {
 
 /* Main Section Stuff */
 
+
+
 main {
   padding-top: 50px;
 }
@@ -117,7 +111,7 @@ section {
 #homepage {
   display: flex; 
   flex-wrap: wrap; 
-  justify-content: left;
+  justify-content: space-between;
 }
 
 #pfp {
@@ -133,7 +127,7 @@ section {
 
 #bio {
   margin: 5px; 
-  width: calc(100% - 30px);
+  width: 100%;
   display: flex; 
   flex-wrap: wrap; 
   position: relative;
