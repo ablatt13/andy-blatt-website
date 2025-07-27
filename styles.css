@@ -110,6 +110,7 @@ section {
   justify-content: space-between;
   position: absolute; 
   top: 90px; 
+  padding-bottom: 125px; 
 }
 
 
@@ -165,7 +166,6 @@ section {
 .about-show{
   display: flex; 
   justify-content: space-evenly;
-  margin-bottom: 100px; 
   gap: 26px; 
 
 }
@@ -183,6 +183,12 @@ section {
 
 
 /* RESUME STUFF */
+
+.resume-view {
+  width: 100%;
+  height: 600px; 
+  overflow: auto;
+}
 
 
 
