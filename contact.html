@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Andy Blatt website" />
     <title>Andy Blatt Contact Form</title>
-    <link rel="icon" type="image/x-icon" href="/mickeyfav.png">
+    <link rel="icon" type="image/x-icon" href="/ABfavicon.png">
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,59 +33,20 @@
     
 
     <section id="contact-form" class="contact-form">
-        <h2>Contact Info!!</h2>
         <div>
-            <body>
-                <section>
-                  <h1 id="title">Title of Form</h1>
-                  <p id="description">This is the form that I am making</p>
-                </section>
-                <fieldset>
-                <form id="survey-form">
-                  <label for="name" id="name-label">Name  (required): </label>
-                  <input required id="name" type="text" placeholder="Jane Doe"/>
-                  <label for="email" id="email-label">Email (required): </label>
-                  <input required id="email" type="email" placeholder="@umich.edu"/>
-                  <label for="number" id="number-label">Age: </label>
-                  <input id="number" type="number" min="0" max="101" placeholder="3"/>
-                
-                  
-                  <label>Select a number</label>
-                  <select name="dropdown" id="dropdown">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                  </select>
-            
-            
-                      <legend>Yes or No?</legend>
-                      <label for="yes-option">Yes</label>
-                      <input id="yes-option" type="radio" name="hotel-stay" value="1"/>
-                      <label for="no-option">No</label>
-                      <input id="no-option" type="radio" name="hotel-stay" value="0"/>
-            
-                    
-            
-                      <legend>Pick multiple!</legend>
-                      <label for="F">F</label>
-                      <input type="checkbox" name="F" id="F" value="F"/>
-                      <label for="O">O</label>
-                      <input type="checkbox" name="O" id="O" value="O"/>
-                      <label for="U">U</label>
-                      <input type="checkbox" name="U" id="U" value="U"/>
-                      <label for="R">R</label>
-                      <input type="checkbox" name="R" id="R" value="R"/>
-                     
-                 
-                      <label for="comments">Comments</label>
-                      <textarea rows=5 cols=20 id="comments" name="comments"></textarea>
-            
-                      <button id="submit" type="submit">Submit Here</button>
-                       </fieldset>
-                </form>  
-              </body>
-        </div>
-    </section>
+            <p><span class="form-star">*</span> Indicates Required Field</p>
+            <form id="survey-form">
+                <label for="name" id="name-label">Name <span class="form-star">*</span></label>
+                <input required id="name" type="text" />
+                <label for="email" id="email-label">Email <span class="form-star">*</span></label>
+                <input required id="email" type="email" />
 
+                <label for="comments">Comments <span class="form-star">*</span></label>
+                <textarea rows=5 cols=20 id="comments" name="comments"></textarea>
+          
+                <button id="submit" type="submit">Submit Here</button>
+            </form>      
+        </div>
     <footer>
         <a class="navigate" href="www.linkedin.com/in/andy-blatt-4b8952263" target="_blank">LinkedIn</a>
         <a class="navigate" href="mailto:andyfelix564@gmail.com" target="_blank">Email</a>
