@@ -103,9 +103,6 @@ a[class~="navigate"]:hover {
   text-decoration: none;
 }
 
-
-/* HOME PAGE STUFF */
-
 section {
   display: flex; 
   flex-wrap: wrap; 
@@ -114,29 +111,73 @@ section {
   top: 90px; 
 }
 
+
+
+
+
+/* HOME PAGE STUFF */
+
 #pfp {
-  width: 200px; 
+  width: 300px; 
   height: auto; 
   margin: 5px; 
   border-radius: 20px;   
   display: flex; 
-  
 }
 
 #bio {
   margin: 15px; 
-  width: calc(100vw - 300px);
+  width: calc(100% - 350px);
   display: flex; 
   flex-wrap: wrap; 
- 
 }
 
 /* PRODUCTION STUFF */
-/*.all-productions {
-  position: absolute; 
-  display: flex; 
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
 }
-*/
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery::after {
+  content: "";
+  width: 350px;
+}
+
+.about-show{
+  display: flex; 
+  justify-content: flex-start;
+}
+
+.creative-team {
+  height: 100%; 
+  width: 50%; 
+}
+
+.team-position {
+  font-weight: bold;
+}
+
+
+
+
+
+
 /* PROJECTS STUFF */
 
 /* RESUME STUFF */
