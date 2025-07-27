@@ -17,6 +17,8 @@ body {
   font-family: Rubik;
 }
 
+/* HEADER AND FOOTER STUFF */
+
 header, footer {
   width: 100%; 
   background-color: #9ee2bfff;
@@ -38,6 +40,10 @@ footer {
   height: 100px; 
   text-align: center; 
   justify-content: center;
+  border-top: 5px double black; 
+  position: fixed; 
+  bottom: 0; 
+
 }
 
 .logo {
@@ -98,21 +104,14 @@ a[class~="navigate"]:hover {
 }
 
 
-
+/* HOME PAGE STUFF */
 
 section {
-  display: block; 
-}
-
-
-
-
-/* Home Page Stuff */
-
-#homepage {
   display: flex; 
   flex-wrap: wrap; 
   justify-content: space-between;
+  position: absolute; 
+  top: 90px; 
 }
 
 #pfp {
@@ -121,17 +120,15 @@ section {
   margin: 5px; 
   border-radius: 20px;   
   display: flex; 
-  position: absolute;
-  top: 90px; 
+  
 }
 
 #bio {
-  margin: 5px; 
+  margin: 15px; 
   width: calc(100vw - 300px);
   display: flex; 
   flex-wrap: wrap; 
-  position: relative;
-  top: 100px;  
+ 
 }
 
 /* PRODUCTION STUFF */
@@ -145,15 +142,6 @@ section {
 /* RESUME STUFF */
 
 /* FOOTER STUFF */ 
-
-/*footer, footer a {
-  color: black;
-  text-align: center;
-  padding: 0.3em;
-  justify-content: center; 
-  text-decoration: none; 
-}
-*/
 
 .sr-only {
   position: absolute;
