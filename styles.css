@@ -120,6 +120,7 @@ footer {
   margin: 0 0 0 25px; 
   text-align: center; 
   justify-content: center; 
+  padding: 0 5px; 
 }
 
 .logo h1, h2 {
@@ -134,7 +135,11 @@ footer {
 
 
 a[class~="logo"]:hover {
-  color: #525252FF; 
+  /* color: #525252FF; */
+  background-color: var(--light-green);
+  color: black; 
+  padding: 0 5px; 
+  position: relative; 
 }
 
 
@@ -214,6 +219,7 @@ section {
   justify-content: center;
   align-items: center;
   gap: 16px;
+  width: 100%; 
   max-width: 1400px;
   margin: 0 auto;
   padding: 20px 10px;
