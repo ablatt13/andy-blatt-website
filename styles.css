@@ -237,8 +237,10 @@ section {
 
 .about-show{
   display: flex; 
-  justify-content: space-evenly;
-  gap: 26px; 
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; 
+  gap: 20vw; 
 }
 
 .empty-block {
