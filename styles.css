@@ -71,21 +71,23 @@ body {
 }
 
 :root {
-  --banner-color: #9ee2bfff; 
-  --lighter-color: #e0f2e9ff; 
+  --dark-green: #9ee2bfff; 
+  --mid-green: #c6eedbff;
+  --light-green: #e0f2e9ff; 
 }
 
 body {
   background: whitesmoke;
   color: black;
   font-family: Rubik;
+  
 }
 
 /* HEADER AND FOOTER STUFF */
 
 header, footer {
   width: 100%; 
-  background-color: var(--banner-color);
+  background-color: var(--dark-green);
   display: flex;
   align-items: center;
   z-index: 999; 
@@ -101,11 +103,12 @@ header {
 }
 
 footer {
-  height: 100px; 
+  height: 50px; 
   text-align: center; 
   justify-content: center;
   border-top: 5px double black; 
-  position: fixed; 
+  /* GET RID OF FOOTER AT BOTTOM */
+  position: fixed;
   bottom: 0; 
   left: 0; 
 }
@@ -174,7 +177,8 @@ section {
   justify-content: space-between;
   position: absolute; 
   top: 90px; 
-  padding-bottom: 125px; 
+  left: 0;  
+  padding-bottom: 55px; 
 }
 
 
@@ -184,7 +188,7 @@ section {
 /* HOME PAGE STUFF */
 
 #pfp {
-  width: 300px; 
+  width: max(30vw, 250px); 
   height: auto; 
   margin: 5px; 
   border-radius: 20px;   
@@ -193,7 +197,7 @@ section {
 
 #bio {
   margin: 15px; 
-  width: calc(100% - 350px);
+  width: max(60%, 100px);
   display: flex; 
   flex-wrap: wrap; 
 }
@@ -215,20 +219,19 @@ section {
 }
 
 .gallery img {
-  /*width: 100%;
+  width: 100%;
   max-width: 350px;
-  height: 300px;*/
-  width: 30vw; 
-  
+  height: 300px;
+  /*width: 30vw; */
   object-fit: cover;
   border-radius: 10px;
 }
+
 
 .gallery::after {
   content: "";
   width: 350px;
 }
-
 
 
 .about-show{
@@ -249,14 +252,26 @@ section {
 
 .headliner {
   font-size: 3em; 
-  background-color: var(--lighter-color); 
+  background-color: var(--mid-green); 
   width: 100%; 
   display: flex; 
-  position: relative; 
-  text-align: center; 
-  left: 0; 
+  left: 0;  
   border-bottom: 5px double black; 
-  padding: 3px; 
+  padding: 0 10px; 
+}
+
+.all-projects h3 { 
+  background-color: var(--light-green); 
+  width: 100%; 
+  display: flex; 
+  left: 0;  
+  border-bottom: 2px solid black; 
+  padding: 0 25px; 
+  margin-top: 5px; 
+}
+
+.all-projects p {
+  margin: 5px 40px; 
 }
 
 
@@ -274,8 +289,9 @@ section {
 
 .grid-packet {
   position: relative;
-  width: 45vw;
+  width: max(30vw, 300px);
 }
+
 
 .grid-img {
   display: block;
@@ -309,6 +325,10 @@ section {
   content: "";
   width: 45vw;
 }
+
+
+
+
 
 
 /* RESUME STUFF */
