@@ -71,9 +71,10 @@ body {
 }
 
 :root {
-  --dark-green: #9ee2bfff; 
+  --dark-green: #9ee2bf; 
   --mid-green: #c6eedbff;
   --light-green: #e0f2e9ff; 
+  --dark-comp: #E2A69E; 
 }
 
 body {
@@ -133,7 +134,7 @@ footer {
 
 
 a[class~="logo"]:hover {
-  color: whitesmoke; 
+  color: #525252FF; 
 }
 
 
@@ -176,7 +177,7 @@ section {
   flex-wrap: wrap; 
   justify-content: space-between;
   position: absolute; 
-  top: 90px; 
+  top: 70px; 
   left: 0;  
   padding-bottom: 55px; 
 }
@@ -251,13 +252,17 @@ section {
 /* PROJECTS STUFF */
 
 .headliner {
-  font-size: 3em; 
+  font-size: 2.5em;
+  --head-height: 3em;  
   background-color: var(--mid-green); 
   width: 100%; 
   display: flex; 
   left: 0;  
   border-bottom: 5px double black; 
   padding: 0 10px; 
+  position: sticky; 
+  top: 70px; 
+  z-index: 995; 
 }
 
 .all-projects h3 { 
@@ -266,8 +271,10 @@ section {
   display: flex; 
   left: 0;  
   border-bottom: 2px solid black; 
-  padding: 0 25px; 
-  margin-top: 5px; 
+  padding: 0 25px 0 25px; 
+  position: sticky; 
+  top: 127px; 
+  z-index: 990; 
 }
 
 .all-projects p {
@@ -326,7 +333,15 @@ section {
   width: 45vw;
 }
 
-
+.j-peterman {
+  border-radius: 10px; 
+  width: 80%; 
+  height: auto; 
+  position: static; 
+  margin-left: 10%; 
+  margin-bottom: 2em; 
+  padding: 0 auto;  
+}
 
 
 
