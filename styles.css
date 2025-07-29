@@ -220,7 +220,7 @@ section {
   align-items: center;
   gap: 16px;
   width: 100%; 
-  max-width: 1400px;
+  /* max-width: 1400px; */
   margin: 0 auto;
   padding: 20px 10px;
 }
@@ -243,10 +243,9 @@ section {
 
 .about-show{
   display: flex; 
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
   margin: 0 auto; 
-  gap: 20vw; 
+ 
 }
 
 .empty-block {
