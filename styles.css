@@ -86,7 +86,7 @@ body {
 
 /* HEADER AND FOOTER STUFF */
 
-header, footer {
+nav, footer {
   width: 100%; 
   background-color: var(--dark-green);
   display: flex;
@@ -94,32 +94,78 @@ header, footer {
   z-index: 999; 
 }
 
-header {
+.nav {
   height: 70px;
   position: fixed;
   top: 0;
   left: 0;
-  justify-content: space-between;
   border-bottom: 5px double black; 
+  width: 100%; 
+  flex-wrap: wrap;
+  font-size: min(3vw, 1em); 
+  gap: 2em; 
+}
+
+.nav-list {
+  margin: 0; 
+  padding: 2px; 
+  position: fixed; 
+  right: 0;
+  width: 70vw; 
+}
+
+.nav-list li {
+  list-style: none; 
+  margin: 0 1em;
+  gap: 2em; 
+  padding: 2px; 
+}
+
+.nav li {
+  float: right; 
+}
+
+.nav-list a, footer a {
+  border-bottom: 5px double transparent; 
+  text-align: center; 
+  justify-content: center;
+  bottom: 0; 
+  color: black;
+  text-decoration: none; 
+}
+
+.nav-list a:hover, footer a:hover {
+  border-bottom: 5px double black; 
+  /*font-weight: bold;*/
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
 }
 
 footer {
-  height: 50px; 
-  text-align: center; 
-  justify-content: center;
-  border-top: 5px double black; 
-  /* GET RID OF FOOTER AT BOTTOM */
+  height: 40px; 
   position: fixed;
   bottom: 0; 
   left: 0; 
+  border-top: 5px double black; 
+  width: 100%; 
+  flex-wrap: wrap; 
+  font-size: min(3vw, 0.7em);
+  gap: 2em; 
+  justify-content: center;
+  /* TODO: GET RID OF FOOTER AT BOTTOM */
 }
 
+
+
+/* LOGO STUFF */
 .logo {
   text-decoration: none;
-  color: black; 
-  margin: 0 0 0 25px; 
+  color: black;  
+  position: fixed;
+  left: 1.2em; 
   text-align: center; 
-  justify-content: center; 
+  justify-content: left; 
   padding: 0 5px; 
 }
 
@@ -128,54 +174,29 @@ footer {
   margin: 0; 
 }
 
-.logo h2 {
-  font-size: 1em; 
-  font-weight: lighter;
+.logo h1 {
+  font-size: min(5vw, 1.6em);
+  text-align: center; 
+  font-weight: bolder; 
 }
 
+.logo h2 {
+  font-size: min(2vw, 0.8em); 
+  font-weight: lighter;
+}
 
 a[class~="logo"]:hover {
   /* color: #525252FF; */
   background-color: var(--light-green);
-  color: black; 
-  padding: 0 5px; 
-  position: relative; 
+  color: inherit;  
 }
 
 
-/*h1 {
-  font-size: min(5vw, 1.2em);
-  text-align: center;
-}
-*/
 
-nav > ul {
-  display: flex;
-  justify-content: space-evenly;
-  list-style: none; 
-  flex-wrap: wrap;
-  align-items: center;
-  margin: 0 10px; 
-  height: 100%;
-  gap: 30px; 
-}
 
-a[class~="navigate"] {
-  color: black;
-  text-decoration: none; 
-  margin: 0 0.2rem;
-  padding: 0.2rem;
-}
 
-a[class~="navigate"]:hover {
-  border-bottom: 5px double black; 
-  font-weight: bold;
-  cursor: pointer;
-  color: inherit;
-  text-decoration: none;
-  margin: 0; 
-  padding: 0; 
-}
+
+
 
 section {
   display: flex; 
@@ -184,12 +205,8 @@ section {
   position: absolute; 
   top: 70px; 
   left: 0;  
-  padding-bottom: 55px; 
+  padding-bottom: 45px; 
 }
-
-
-
-
 
 /* HOME PAGE STUFF */
 
@@ -229,7 +246,6 @@ section {
   width: 30vw;
   max-width: 350px;
   height: 300px;
-  /* max-width: 350px; */
   object-fit: cover;
   border-radius: 10px;
 }
@@ -263,6 +279,8 @@ section {
   font-size: 1.6rem;
   width: 100%; 
   display: flex; 
+  flex-direction: row;
+  gap: 20px;
   left: 0;  
   border-bottom: 5px double black; 
   padding: 0 10px; 
@@ -271,10 +289,12 @@ section {
   z-index: 995; 
 }
 
+.all-projects p {
+  margin: 5px 40px; 
+}
+
 .all-projects h3 { 
   background-color: var(--light-green); 
-  font-size: 1.3rem; 
-  width: 100%; 
   display: flex; 
   left: 0;  
   border-bottom: 2px solid black; 
@@ -283,11 +303,6 @@ section {
   top: calc(80px + 1.4rem); 
   z-index: 990; 
   margin-top: 0; 
-}
-
-
-.all-projects p {
-  margin: 5px 40px; 
 }
 
 
@@ -348,7 +363,8 @@ section {
   height: auto; 
   position: static; 
   margin-left: 10%; 
-  margin-bottom: 2em; 
+  margin-bottom: 1em; 
+  margin-top: 1em; 
   padding: 0 auto;  
 }
 
