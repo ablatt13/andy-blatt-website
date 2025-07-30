@@ -282,6 +282,28 @@ section {
   width: 350px;
 }
 
+.production-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* max-width: 1400px; */
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.production-gallery img {
+  aspect-ratio: 3 / 2;
+  width: 31vw; 
+  height: auto; 
+  object-fit: cover;
+  min-width: 300px; 
+
+  object-fit: cover;
+}
+
 
 .about-show {
   display: flex;
