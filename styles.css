@@ -545,14 +545,18 @@ section {
 
 
 .resume {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   width: 80%; 
+  padding-top: 15px; 
   height: auto; 
   margin: 0 auto; 
 }
 
 .resume-download {
-  
-  
   display: block; 
   text-align: center;
   flex-wrap: wrap;
