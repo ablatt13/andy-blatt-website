@@ -74,7 +74,7 @@ body {
 nav,
 footer {
   width: 100%;
-  background-color: var(--dark-green);
+  background-color: var(--dark-comp);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -435,7 +435,7 @@ section {
   justify-content: center;
   align-items: center;
 }
-
+/*
 .suit-gallery {
   display: flex;
   flex-direction: row;
@@ -444,7 +444,7 @@ section {
   align-items: center;
   gap: 16px;
   width: 100%;
-  /* max-width: 1400px; */
+  /* max-width: 1400px; 
   margin: 0 auto;
   padding: 20px 10px;
 }
@@ -456,11 +456,19 @@ section {
   object-fit: cover;
   min-width: 300px;
   border-radius: 10px;
-}
-
+}*/
+/*
 .suit-gallery::after {
   content: "";
   width: 300px;
+}*/
+
+.side-by-side {
+  width: 100%; 
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px; 
+  justify-content: space-around;
 }
 
 .final {
