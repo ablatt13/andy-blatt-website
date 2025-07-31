@@ -209,32 +209,13 @@ section {
   width: 100%;
   padding: 30px;
   padding-right: 10%;
-  /* display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    padding: 30px;
-    padding-right: 10%;
-    */
 }
 
 #pfp {
-  /*height: auto; 
-  border-radius: 20px;  
-  border: 5px solid blue;  
-  width: min(80vw, 400px); 
-  position: relative; 
-  left: 0; 
-  */
   width: 40%;
   min-width: 300px;
   max-width: 400px;
   border-radius: 20px;
-  /*
-   width: 40%;
-    min-width: 300px;
-    max-width: 400px;
-    */
 }
 
 #bio {
@@ -420,8 +401,6 @@ section {
   width: 45vw;
 }
 
-
-
 .j-peterman {
   border-radius: 10px;
   width: 80%;
@@ -435,33 +414,6 @@ section {
   justify-content: center;
   align-items: center;
 }
-/*
-.suit-gallery {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  width: 100%;
-  /* max-width: 1400px; 
-  margin: 0 auto;
-  padding: 20px 10px;
-}
-
-.suit-gallery img {
-  aspect-ratio: 2 / 3;
-  height: 60vh;
-  width: auto;
-  object-fit: cover;
-  min-width: 300px;
-  border-radius: 10px;
-}*/
-/*
-.suit-gallery::after {
-  content: "";
-  width: 300px;
-}*/
 
 .side-by-side {
   width: 100%; 
@@ -473,12 +425,6 @@ section {
   justify-content: space-around;
 }
 
-/*
-.final {
-  border-radius: 10px;
-  width: 100%;
-}
-*/
 
 .all-pics {
   width: 100%; 
