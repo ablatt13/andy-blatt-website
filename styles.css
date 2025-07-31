@@ -354,6 +354,10 @@ section {
   width: 100%; 
 }
 
+.all-projects > div {
+  width: 100%; 
+}
+
 
 .grid-total {
   display: flex;
@@ -416,6 +420,8 @@ section {
   width: 45vw;
 }
 
+
+
 .j-peterman {
   border-radius: 10px;
   width: 80%;
@@ -434,7 +440,7 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   gap: 16px;
   width: 100%;
