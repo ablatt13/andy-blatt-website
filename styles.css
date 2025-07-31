@@ -74,7 +74,7 @@ body {
 nav,
 footer {
   width: 100%;
-  background-color: var(--dark-comp);
+  background-color: var(--dark-green);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -468,14 +468,17 @@ section {
   display: flex;
   flex-wrap: wrap;
   padding: 5px; 
+  gap: 5px; 
+  margin-bottom: 15px; 
   justify-content: space-around;
 }
 
+/*
 .final {
   border-radius: 10px;
   width: 100%;
 }
-
+*/
 
 .all-pics {
   width: 100%; 
@@ -516,6 +519,10 @@ section {
   width: 30%; 
   min-width: 200px; 
   max-width: 250px;
+}
+
+.hori {
+  aspect-ratio: 4 / 3; 
 }
 
 /* Styles for smaller screens */
