@@ -50,6 +50,7 @@ body {
 */
 /* Green color: #9ee2bfff */
 /* Light green: #e0f2e9ff */
+/* Maddie Website */
 
 * {
   box-sizing: border-box;
@@ -90,6 +91,7 @@ footer {
   width: 100%;
   font-size: min(3vw, 1em);
   gap: 2em;
+  
 }
 
 .nav-list {
@@ -98,6 +100,9 @@ footer {
   position: fixed;
   right: 0;
   width: 70vw;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: row-reverse;
 }
 
 .nav-list li {
