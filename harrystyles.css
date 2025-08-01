@@ -53,6 +53,7 @@
   
   * {
     box-sizing: border-box;
+    border: 2px solid blue; 
   }
   
   :root {
@@ -67,10 +68,8 @@
     color: black;
     font-family: Rubik;
     border: 3px solid red; 
-  
+
   }
-  
-  
   
   
   section {
@@ -84,49 +83,36 @@
     width: 100%; 
     border: 3px solid pink; 
   }
+  
 
-  .all-projects > div {
-    width: 100%; 
-  }
-  
-  
-  /* PROJECTS STUFF */
-  
-  .headliner {
-    background-color: var(--mid-green);
-    font-size: 1.6rem;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    left: 0;
-    border-bottom: 5px double black;
-    padding: 0 10px;
-    position: sticky;
-    top: 70px;
-    z-index: 995;
-    border: 3px solid green; 
-  }
-  
-  .all-projects p {
-    padding: 5px 40px;
-    border: 3px solid red; 
-  }
-  
-  .all-projects h3 {
-    background-color: var(--light-green);
-    display: flex;
-    left: 0;
-    border-bottom: 2px solid black;
-    padding: 2px 25px;
-    position: sticky;
-    top: calc(80px + 1.4rem);
-    z-index: 990;
-    margin-top: 0;
-    width: 100%; 
-    border: 3px solid yellow; 
-  }
-  
+
+.headliner {
+  background-color: var(--mid-green);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  border-bottom: 5px double black;
+  padding: 0 10px;
+  position: sticky;
+  top: 70px;
+  z-index: 995;
+}
+
+.headliner h2 {
+  font-size: 1.6rem;
+  margin: 0; 
+}
+
+.headliner p {
+  align-items: end;
+  padding: 0; 
+  font-size: 1rem; 
+  margin: auto 0 2px; 
+}
+
+
+
   
   /* SCREEN READER STUFF */
   
@@ -143,53 +129,3 @@
     border: 3px solid red; 
   }
   
-  
-  
-  .side-by-side {
-    width: 100%; 
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px; 
-    gap: 5px; 
-    justify-content: space-around;
-    border: 3px solid saddlebrown; 
-  }
-  
-  .small-pic {
-    aspect-ratio: 3 / 4;
-    width: 30%; 
-    min-width: 200px; 
-    max-width: 250px;
-    border: 3px solid red; 
-  }
-  
-  /* Styles for smaller screens */
-  @media screen and (max-width: 768px) {
-    .small-pic {
-      min-width: 300px;
-      border: 3px solid red; 
-    }
-  }
-
-
-  /*<body>
-    <section>
-        class=headliner
-        <all-projects>
-            <div>
-                <h3>
-                    <all-pics>
-                        <pic-box>
-                            <big-pic>
-                                <small-pic>
-
-                                </small-pic>
-                            </big-pic>
-                        </pic-box>
-                    </all-pics>
-                </h3>
-            </div>
-        </all-projects>
-    </section>
-</body>
-*/
