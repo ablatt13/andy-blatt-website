@@ -256,7 +256,6 @@ section {
 }
 
 .headliner h2 {
-  /*font-size: 1.6rem;*/
   font-size: min(5vw, 1.6em);
   margin: 0; 
 }
@@ -391,7 +390,6 @@ section {
   text-align: center;
   justify-content: center;
   align-items: center;
-  border: 3px solid green; 
   /* transition: .5s ease; */
   background-color: black;
 }
@@ -441,7 +439,6 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  /*border: 4px solid brown;*/
   gap: 10px; 
   margin: 0 auto;
   padding: 20px 10px;
@@ -506,7 +503,6 @@ section {
   padding-top: 15px; 
   height: auto; 
   margin: 0 auto; 
-  
 }
 
 .download-buttons {
@@ -517,9 +513,7 @@ section {
   align-items: center;
   width: 100%; 
   gap: 20px; 
-  margin-top: 10px;
-  margin-bottom: 10px; 
-
+  margin: 10px auto; 
 }
 
 
@@ -531,7 +525,6 @@ section {
   font-size: min(3vw, 1em);
   padding: 1.2em; 
   margin: 0 auto; 
-
 }
 
 
@@ -548,15 +541,6 @@ section {
 
 
 /* CONTACT FORM STUFF */
-
-
-/*form {
-  display: flex; 
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  border: 2px solid red; 
-}*/
 
 .contact-form {
   display: flex; 
