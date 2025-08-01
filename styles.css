@@ -485,6 +485,7 @@ section {
 
 
 /* RESUME STUFF */
+
 .resume-all {
   display: flex;
   flex-direction: column;
@@ -505,35 +506,44 @@ section {
   padding-top: 15px; 
   height: auto; 
   margin: 0 auto; 
+  
 }
 
-.resume-download {
-  display: block; 
+.download-buttons {
+  display: flex; 
   text-align: center;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 10px; 
+  width: 100%; 
+  gap: 20px; 
+  margin-top: 10px;
+  margin-bottom: 10px; 
+
 }
 
-.resume-download a {
+
+.download-buttons a {
   color: black; 
   text-decoration: none;
   text-align: center;
   background-color: var(--dark-green);
-  padding: 20px; 
+  font-size: min(3vw, 1em);
+  padding: 1.2em; 
   margin: 0 auto; 
-  position: relative; 
-  bottom: 20px; 
+
 }
 
 
-.resume-download a:hover {
+.download-buttons a:hover {
   color: black; 
   text-decoration: none;
   text-align: center;
   background-color: var(--mid-green);
 }
+
+
+
 
 
 
