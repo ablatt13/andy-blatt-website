@@ -539,12 +539,29 @@ section {
 
 /* CONTACT FORM STUFF */
 
+
+/*form {
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red; 
+}*/
+
+.contact-form {
+  display: flex; 
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%; 
+  align-items: center;
+}
+
 #survey-form label,
 #survey-form button {
   display: block;
   margin: 10px auto 0 auto;
 }
-
 
 .form-star {
   color: red;
