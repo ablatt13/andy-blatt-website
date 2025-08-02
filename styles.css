@@ -84,7 +84,7 @@ body {
 nav,
 footer {
   width: 100%;
-  background-color: var(--dark-green);
+  background-color: var(--dark-comp);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -503,6 +503,7 @@ section {
   height: auto;
   aspect-ratio: 3 / 4;
   max-width: 350px; 
+  border: 2px solid blue; 
 }
 
 
