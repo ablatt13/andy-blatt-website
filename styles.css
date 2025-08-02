@@ -84,7 +84,7 @@ body {
 nav,
 footer {
   width: 100%;
-  background-color: var(--dark-comp);
+  background-color: var(--dark-green);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -483,7 +483,8 @@ section {
 
 .container2 {
   position: relative;
-  height: 65vh; 
+  /*height: 65vh; */
+  height: auto; /* CHANGED */
   width: auto; 
   /*width: 70%;
   max-width: 300px;*/
@@ -500,10 +501,9 @@ section {
 .image2 {
   display: block;
   width: 100%;
-  height: auto;
+  height: 50hv; /* CHANGED */
   aspect-ratio: 3 / 4;
   max-width: 350px; 
-  border: 2px solid blue; 
 }
 
 
