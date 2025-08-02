@@ -33,10 +33,13 @@ body {
   .empty-block {
     display: none;
   }
+  .container2 {
+    min-height: 350px; 
+  }
 }
 
 
-/*
+
 /* Styles for larger screens 
 @media screen and (min-width: 768px) {
   body {
@@ -57,9 +60,11 @@ body {
   }
 }
 */
+
+
 /* Green color: #9ee2bfff */
 /* Light green: #e0f2e9ff */
-/* Maddie Website */
+/* Maddie Website: https://maddiercb.com/ */
 
 * {
   box-sizing: border-box;
@@ -415,6 +420,18 @@ section {
   aspect-ratio: 4 / 3; 
 }
 
+.horizontal-small-pic {
+  aspect-ratio: 4 / 3; 
+  height: 30%; 
+  min-height: 200px; 
+  max-height: 250px; 
+  object-fit: contain;
+}
+
+.flipped {
+  transform: scaleX(-1);
+}
+
 .container2 {
   position: relative;
   height: auto;
@@ -423,12 +440,7 @@ section {
   max-width: 300px;*/
 }
 
- /* Styles for smaller screens */
- @media screen and (max-width: 768px) {
-  .container2 {
-    min-height: 350px; 
-  }
-}
+
 
 .image2 {
   display: block;
