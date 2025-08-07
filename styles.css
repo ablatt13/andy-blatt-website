@@ -42,8 +42,8 @@ body {
     width: 50%; 
   }
 
-  .pfp {
-    width: 300px;
+  .logo h2 {
+    opacity:0;
   }
 }
 
@@ -234,10 +234,9 @@ section {
 .pfp {
   aspect-ratio: 3 / 4;
   object-fit: cover;
-  width: 25%;
-  min-width: 250px;
-  max-width: 350px;
-  height: auto; 
+  width: 300px; 
+  max-width: 300px; 
+  min-width: 300px;
   border-radius: 20px;
 }
 
