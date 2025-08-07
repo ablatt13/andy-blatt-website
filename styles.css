@@ -41,10 +41,6 @@ body {
   .nav-list {
     width: 50%; 
   }
-
-  .logo h2 {
-    opacity:0;
-  }
 }
 
 
@@ -235,8 +231,6 @@ section {
   aspect-ratio: 3 / 4;
   object-fit: cover;
   width: 300px; 
-  max-width: 300px; 
-  min-width: 300px;
   border-radius: 20px;
 }
 
