@@ -8,5 +8,6 @@
 <h2>Lessons Learned</h2>
 <p>Thinking of everything in a box when working on how it will end up in the layout</p>
 
-<h2>Examples: </h2>
+<h2>References: </h2>
 <p>https://maddiercb.com/</p>
+<p>https://www.30secondsofcode.org/</p>
