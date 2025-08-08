@@ -34,16 +34,25 @@ body {
   .empty-block {
     display: none;
   }
-  .container2 {
-    min-height: 350px; 
-  }
 
   .nav-list {
     width: 50%; 
   }
+  .pfp {
+    min-width: 300px; 
+  }
+
+  .me-photos {
+    justify-content: center !important;
+  }
+
 }
 
-
+@media screen and (max-width: 594px) {
+  .small-img {
+    min-width: 300px !important; 
+  }
+}
 
 /* Styles for larger screens (tablets) */
 @media screen and (min-width: 768px) {
@@ -156,8 +165,8 @@ footer a:hover {
 footer {
   height: 40px;
   position: fixed;
-  top: calc(100vh - 40px);
-  /* bottom: 0; */
+  /*top: calc(100vh - 40px);*/
+  bottom: 0;
   left: 0;
   border-top: 5px double black;
   width: 100%;
@@ -165,6 +174,7 @@ footer {
   font-size: min(3vw, 0.7em);
   gap: 2em;
   justify-content: center;
+  align-items: center;
   /* TODO: GET RID OF FOOTER AT BOTTOM */
 }
 
@@ -230,14 +240,60 @@ section {
 .pfp {
   aspect-ratio: 3 / 4;
   object-fit: cover;
-  width: 300px; 
+  width: 350px; 
   border-radius: 20px;
+  align-self: center;
+  margin-top: 10px;
 }
 
 #bio {
+  /*margin: 10px;
+  width: 55%;*/
+  min-width: 300px;
+}
+
+.rectangle {
   margin: 10px;
   width: 55%;
   min-width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.me-photos {
+  width: 100%; 
+  gap: 2px; 
+  justify-content: space-between;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap; 
+  margin-top: 15px;
+}
+
+.container22 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 30%;
+  min-width: 150px;
+}
+
+.small-img {
+  aspect-ratio: 4 / 3;
+  min-width: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.smallO {
+  font-size: 1em !important;
+  padding: 5px 0 !important;
+  border-radius: 0 0 8px 8px;
+}
+
+.container22:hover .overlay {
+  opacity: 1;
 }
 
 /* PRODUCTION STUFF */
