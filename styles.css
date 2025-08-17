@@ -49,7 +49,7 @@ body {
 }
 
 @media screen and (max-width: 594px) {
-  .small-img {
+  .small-img, .overlay, .smallO {
     min-width: 300px !important; 
   }
 }
@@ -153,8 +153,8 @@ footer a {
   text-decoration: none;
 }
 
-.nav-list a:hover,
-footer a:hover {
+.nav-list a:hover
+/*footer a:hover*/ {
   border-bottom: 5px double black;
   /*font-weight: bold;*/
   cursor: pointer;
@@ -183,10 +183,12 @@ footer {
   gap: 2em;
   justify-content: center;
   align-items: center;
-  /* TODO: GET RID OF FOOTER AT BOTTOM */
 }
 
-
+.ficon {
+  width: 25px; 
+  height: 25px; 
+}
 
 /* LOGO STUFF */
 .logo {
