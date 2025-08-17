@@ -185,9 +185,12 @@ footer {
   align-items: center;
 }
 
-.ficon {
+.ficon > img {
   width: 25px; 
   height: 25px; 
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px; 
 }
 
 /* LOGO STUFF */
