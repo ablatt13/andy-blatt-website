@@ -162,6 +162,14 @@ footer a:hover {
   text-decoration: none;
 }
 
+.chosen {
+  border-bottom: 5px double black !important;
+  /*font-weight: bold;*/
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
+
 footer {
   height: 40px;
   position: fixed;
@@ -349,7 +357,7 @@ section {
   flex-wrap: wrap; 
   
   justify-content: space-evenly;
-  margin: 0 auto;
+  margin: 0 auto 10px;
   padding: 0 10px; 
 }
 
