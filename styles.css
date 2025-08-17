@@ -197,6 +197,26 @@ footer {
   margin-top: 5px; 
 }
 
+.imageBox {
+  position: relative;
+  float: left;
+}
+
+.imageBox .hoverImg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.imageBox:hover .hoverImg {
+  display: block;
+}
+
+.imageBox:hover .imageInn {
+  opacity: 0; 
+}
+
 /* LOGO STUFF */
 .logo {
   text-decoration: none;
