@@ -49,7 +49,7 @@ body {
 }
 
 @media screen and (max-width: 594px) {
-  .small-img, .overlay, .smallO {
+  .small-img, .overlay, .smallO, .container22 {
     min-width: 300px !important; 
   }
 }
@@ -307,7 +307,7 @@ section {
   margin-top: 15px;
 }
 
-.container22 {
+/*.container22 {
   position: relative;
   display: flex;
   flex-direction: row;
@@ -316,7 +316,38 @@ section {
   min-width: 150px;
 }
 
-.small-img {
+.small-img{
+  aspect-ratio: 4 / 3;
+  min-width: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.smallO {
+  font-size: 1em !important;
+  padding: 5px 0 !important;
+  border-radius: 0 0 8px 8px;
+}
+
+.container22:hover .overlay {
+  opacity: 1;
+}*/
+
+.unlinked {
+  cursor: normal; 
+}
+
+.container22{
+  border: 2px solid blue; 
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 30%;
+  min-width: 150px;
+}
+
+.small-img{
   aspect-ratio: 4 / 3;
   min-width: 150px;
   object-fit: cover;
@@ -332,6 +363,11 @@ section {
 .container22:hover .overlay {
   opacity: 1;
 }
+
+
+
+
+
 
 /* PRODUCTION STUFF */
 
