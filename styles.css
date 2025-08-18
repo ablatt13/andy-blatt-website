@@ -103,8 +103,7 @@ body {
 nav,
 footer {
   width: 100%;
-  /*background-color: var(--dark-green);*/
-  *background-color: transparent; 
+  background-color: var(--dark-green);
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -539,13 +538,13 @@ section {
 }
 
 #caesar{
-  border: 2px solid red; 
-  position: relative; 
+  position: relative;
+  top: -105px; 
 }
 
 #dolls {
-  border: 2px solid blue; 
-  position: absolute; 
+  position: relative;
+  top: -105px; 
 }
 
 .image2 {
