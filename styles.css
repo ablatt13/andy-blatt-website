@@ -537,14 +537,10 @@ section {
   max-width: 300px;*/
 }
 
-#caesar{
+#caesar, #dolls{
   position: relative;
-  top: -105px; 
-}
-
-#dolls {
-  position: relative;
-  top: -105px; 
+  top: -102px; 
+  width: 100%; 
 }
 
 .image2 {
