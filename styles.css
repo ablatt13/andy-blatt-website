@@ -538,13 +538,13 @@ section {
 }
 
 #caesar{
-  left: 0; 
-  top: 70px; 
+  border: 2px solid red; 
+  position: relative; 
 }
 
 #dolls {
-  left: 0; 
-  top: 110px; 
+  border: 2px solid blue; 
+  position: absolute; 
 }
 
 .image2 {
