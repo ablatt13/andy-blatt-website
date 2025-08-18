@@ -537,6 +537,16 @@ section {
   max-width: 300px;*/
 }
 
+#caesar{
+  left: 0; 
+  top: 70px; 
+}
+
+#dolls {
+  left: 0; 
+  top: 110px; 
+}
+
 .image2 {
   display: block;
   width: 100%;
