@@ -11,3 +11,4 @@
 <h2>References: </h2>
 <p>https://maddiercb.com/</p>
 <p>https://www.30secondsofcode.org/</p>
+<p>https://paletton.com/#uid=c300c3u0F0k9DOO1l+v5gWhe4EqiruB</p>
