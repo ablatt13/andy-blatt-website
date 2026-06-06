@@ -86,8 +86,8 @@ body {
 
 :root {
   --dark-green: #9ee2bf;
-  --mid-green: #bfecd3;
-  --light-green: #dff6e9;
+  --mid-green: #B7ECD1;
+  --light-green: #CFF5E2;
   --dark-comp: #E2A69E;
 }
 
@@ -232,6 +232,7 @@ footer {
 h2 {
   padding: 0;
   margin: 0;
+  
 }
 
 .logo h1 {
@@ -248,6 +249,7 @@ h2 {
 a[class~="logo"]:hover {
   background-color: var(--light-green);
   color: inherit;
+  border-radius: 10px;
 }
 
 section {
@@ -277,7 +279,7 @@ section {
 .pfp {
   aspect-ratio: 3 / 4;
   object-fit: cover;
-  width: 350px; 
+  width: 350px;
   border-radius: 20px;
   align-self: center;
   margin-top: 10px;
@@ -537,9 +539,9 @@ section {
   max-width: 300px;*/
 }
 
-#caesar, #dolls, #otis, #pipher, #cree, #missAm, #comet{
+#caesar, #dolls, #otis, #pipher, #cree, #missAm, #comet, #smallWorld{
   position: relative;
-  top: -102px; 
+  top: -105px; 
   width: 100%; 
 }
 
@@ -651,6 +653,7 @@ section {
   padding: 1.2em; 
   margin: 0 1.3em; 
   border-radius: 10px;
+  border: 5px solid transparent;
 }
 
 
@@ -659,6 +662,7 @@ section {
   text-decoration: none;
   text-align: center;
   background-color: var(--mid-green);
+  border: 5px double black;
 }
 
 
